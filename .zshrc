@@ -101,10 +101,14 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vim="nvim"
 alias vzsh="nvim ~/.zshrc"
-alias szsh="source ~/.zshrc && sync-zshrc"
+alias szsh="source ~/.zshrc"
 alias nf="neofetch"
+alias c="clear"
+
+export EDITOR=nvim
 
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
 eval "$(starship init zsh)"
-eval "$(ssh-agent -s >/dev/null 2>&1)"
-ssh-add ~/.ssh/id_ed25519 >/dev/null 2>&1
+#eval "$(ssh-agent -s >/dev/null 2>&1)"
+#ssh-add ~/.ssh/id_ed25519 >/dev/null 2>&1
+
