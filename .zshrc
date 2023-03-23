@@ -106,3 +106,5 @@ alias nf="neofetch"
 
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
 eval "$(starship init zsh)"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
