@@ -111,5 +111,5 @@ export STARSHIP_CONFIG=~/.config/starship/starship.toml
 eval "$(starship init zsh)"
 # eval "$(ssh-agent -s >/dev/null 2>&1)"
 # ssh-add ~/.ssh/id_ed25519 >/dev/null 2>&1
-eval "$(ssh-agent -s &>/dev/null)"
+eval "$(ssh-agent -s &)"
 ssh-add ~/.ssh/id_ed25519 &>/dev/null 
